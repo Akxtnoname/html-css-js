@@ -1,0 +1,80 @@
+.vermelho{
+    color: red;
+}
+
+.verde{
+    color: green;
+}
+
+
+table#jogo_da_velha {
+    background-color: #000000;
+    margin: 20px;
+    color: #CCCC;
+    font-size: 112px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table#jogo_da_velha tr td {
+    width: 150px;
+    height: 150px;
+    border: 5px #CCCCCC solid;
+}
+
+table#jogo_da_velha tr td:hover{
+    background-color:#444444 ;
+    cursor: pointer;
+}
+
+table#jogo_da_velha tr td div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table#jogo_da_velha tr.placar td{
+    border: 0  !important;
+    background-color: #CCCCCC;
+    color: #46168d;
+    text-align: center;
+}
+
+#separador{
+    font-size: 58px;
+    color: #444444 !important;
+}
+
+#linha1coluna1{
+    border-top: 0 !important;
+    border-left: 0  !important;
+}
+
+#linha1coluna2{
+    border-top: 0 !important;
+}
+
+#linha1coluna3{
+    border-top: 0 !important;
+    border-right: 0 !important;
+}
+
+#linha2coluna1{
+    border-left: 0 !important;
+}
+
+#linha2coluna3{
+    border-right: 0 !important;
+}
+
+#linha3coluna1{
+    border-left: 0 !important;
+    border-bottom: 0 !important;
+}
+
+#linha3coluna2{
+    border-bottom: 0 !important;
+}
+
+#linha3coluna3{
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+}
